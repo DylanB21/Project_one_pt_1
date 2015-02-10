@@ -1,0 +1,58 @@
+main {
+	border: 3px solid black;
+	background-color: #ffffff;
+	margin: 5%;
+	padding: 2%;
+}
+
+body {
+	background-image: linear-gradient(#790000, #000);
+	color: #000;
+}
+
+h1, h2 {
+	text-transform: capitalize; margin-top: 0;
+}
+
+h1,h2,h3 {
+	font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+h1 span {
+	color: red;
+}
+
+h3 {
+	color: #666;
+	font-size: smaller;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+div #quote {
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: large;
+}
+
+ol li#footnote {
+	font-size: smaller;
+}
+.left {
+	float: left; margin-right: 5px
+}
+.right {
+	float: right; margin-left: 5px
+}
+.sizing {
+	width: 60%
+}
+.wide {
+	width: 100%
+}
